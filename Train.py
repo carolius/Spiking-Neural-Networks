@@ -252,8 +252,7 @@ if train:
         
 else:
     #CLASSIFICATION ------
-    # NOT IMPLEMENTED. HERE YOU FIRST NEED TO PICK A RANDOM SET OF IMAGES AND LABELS 
-    # AND SEE WHICH NEURONS SPIKE MOST TO WHICH. IN THIS WAY ONE CAN GIVE EACH NEURON A "CLASS" FOR TESTING
+    # Pick a random set of images and labels and see which neurons spike most to which. in this way one can give each neuron a "class" for testing
     latest_version, images_trained = findLatestVersion(network_file)
 
     if latest_version and not restart_sim:
@@ -303,9 +302,8 @@ else:
     print(neuronClass)
     
     #TESTING -----
-    #NOT IMPLEMENTED. HERE YOU GO THROUGH THE TEST DATA AND DETERMINE WHETHER THE NETWORK RESPONDS IN THE WAY THAT
-    # IT SHOULD GIVEN THE INPUT DATA. I.E IF THE INPUT IS A "2" DOES THE NEURONS CLASSIFIED AS "2" NEURONS SPIKE MOST?
-    #DETERMINE THE ACCURACY OF THE NETWORK HERE.
+    # Go through the test data and determine whether the network responds in the way that it should given the input data
+    #  i.e if the input is a "2" do the neurons classified as "2" neurons spike most?
     
 
   
